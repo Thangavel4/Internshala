@@ -1,0 +1,197 @@
+.dropdown-menu {
+    display: none;
+    position: absolute;
+}
+.dropdown-menu-left {
+    left: 0px;
+    top: 30px;
+}
+.dropdown-menu-right {
+    left: 100%;
+    top: 0px;
+}
+.nav-item.dropdown:hover > .dropdown-menu {
+    display: block;
+    background-color: #f4f4f4;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+    /* width:max-content; */
+    width:300px;
+    background-color: #f4f4f4;
+}
+
+#course a{
+    text-decoration: none;
+    color: black;
+}
+#rightnav li{
+    margin-right: 10px;
+}
+li button{
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.footer {
+    background-color: #1a1a1b;
+    color: white;
+    padding: 20px 0;
+}
+.footer .footer-links {
+    list-style: none;
+    padding: 0;
+}
+.footer .footer-links li {
+    margin-bottom: 5px;
+}
+.footer .footer-links li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer .footer-links li a:hover {
+    text-decoration: underline;
+}
+#about a{
+    color: white;
+}
+#icons i{
+    margin-right: 10px;
+}
+.intern{
+    text-align: center;
+    margin: 100px;
+}
+
+.job{
+    text-align: center;
+    margin: 100px;
+}
+.job ul{
+    display: inline-flex;
+}
+.job li{
+    list-style-type:none;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px 15px;
+    height: 35px;
+}
+
+
+.card{
+    width: 300px;
+    padding: 10px;  
+    position: relative; 
+    height:300px;
+}
+.card a:hover{
+    text-decoration: none;
+}
+.card button{
+    font-size: small;
+    border-width: thin; 
+    border-radius: 5px;
+}
+.heading{
+    display: inline-flex;
+    border-bottom:1px solid #1a1a1b;
+}
+.heading img{
+    height: min-content;
+    width: 90px;
+    padding: 5px;
+}
+.foot{
+    color: #000000;
+    position: absolute;
+    bottom: 10px;
+    
+}
+.foot span{
+ border: 1px solid black;
+ padding: 5px;
+ border-radius: 5px;
+ 
+}
+
+.scroll-container {
+    overflow: hidden; 
+    position: relative;
+    width: 100%;
+}
+
+.scroll {
+    display: flex;
+    transition: transform 0.3s ease-out; 
+    justify-content: space-evenly;
+}
+
+.card {
+    min-width: 280px; 
+    margin-right: 16px; 
+}
+
+.scroll-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.scroll-buttons button {
+    background: transparent; 
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.scroll-indicators {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.scroll-indicators span {
+    width: 10px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px 7px;
+    border-radius: 50%;
+
+}
+.scroll-indicators span.active {
+    background: #0400ff;
+}
+
+.courses-training{
+    background-color: #c953ff;
+}
+.course .heading{
+    color: white;
+    display:block;
+    text-align: center;
+    padding: 10px;
+    border: none;
+}
+.courses-training .card img{
+    height:fit-content;
+    width:260px;
+}
+.courses-training .card .content{
+    color: black;
+}
+.rating{
+    border-right:1px solid black ;
+    padding-right: 4px;
+}
+.know{
+    color: #0400ff;
+}
